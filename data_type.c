@@ -19,15 +19,17 @@ int main(int argc, char *argv[]) {
   printf("int32_t Size: %lu Min value: %d Max value: %d Capacity: %ld\n", sizeof(int32_t), INT_MIN, INT_MAX, 1l<<32);
   // Unsigned 32 Integer, double words, dwods
   printf("uint32_t Size: %lu Min value: %d Max value: %ld Capacity: %ld\n", sizeof(uint32_t), 0, UINT_MAX, 1l<<32);
-  // nsigned 64 Integer, double words, dwods
+  // Unsigned 64 Integer, double words, dwods
   printf("int64_t Size: %ld Min value: %ld Max value: %ld Capacity: %s\n", sizeof(int64_t), LONG_MIN, LONG_MAX, "18446744073709551616");
   // Unsigned 64 Integer, double words, dwods
   printf("uint64_t Size: %lu Min value: %d Max value: %lu Capacity: %s\n", sizeof(int64_t), 0, ULONG_MAX, "18446744073709551616");
   // Float (imprecise but infinite range)
   printf("float %lu -inf inf\n", sizeof(float));
   // Double
-  // Float imprecision
   printf("double %lu -inf inf\n", sizeof(double));
+
+  
+  // Float imprecision
   float f = 0.0;
   for(int i = 0; i <10; i++) {
     f += 0.1;
