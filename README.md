@@ -1,4 +1,4 @@
-# Data Type in C
+# Data Types in C
 
   - Signed Char, byte
 
@@ -19,3 +19,11 @@
   - Float (imprecise but infinite range)
 
   - Double
+
+## Int
+
+The `int` data type is used for variables that will store `integers`.
+
+Integers always take up `4 bytes` of memory `32 bits`.
+
+This means the range of values `int` can store is limited to `32 bits` worth information.
