@@ -1,25 +1,30 @@
 # Data Types in C
 
-  - Signed Char, byte
+  - `short int : 2 bytes, format %hd` 
 
-  - Unsigned Char, byte
+  - `unsigned short int : 2 bytes, format %hu`
 
-  - Signed Short, word
+  - `unsigned int : 4 bytes, format %u`
 
-  - Unsigned Short, word
+  - `int : 4 bytes, format %d`
 
-  - Signed 32 Integer, double words, dwods
+  - `long int : 4 bytes, format %ld`
 
-  - Unsigned 32 Integer, double words, dwods
+  - `unsigned long int : 4 bytes, format %lu`
 
-  - Unsigned 64 Integer, double words, dwods
+  - `long long int : 8 bytes, format %lld`
 
-  - Unsigned 64 Integer, double words, dwods
+  - `unsigned long long int : 8 bytes, format %llu`
 
-  - Float (imprecise but infinite range)
+  - `float : 4 bytes, format %f`
 
-  - Double
+  - `double : 8 bytes, format %lf`
 
+  - `long double : 16 bytes, format %Lf`
+
+  - `signed char : 1 bytes, format %c`
+
+  - `unsigned char : 1 byte, format %c`
 
 ## Signed Int
 
@@ -77,3 +82,6 @@ The `bool` data type is used for variables that will store a Boolean value. More
 Function can have a `void` return type, which just means they don't return a value.
 
 The parameters list of a function can also be `void`. It simply means the function takes no parameters.
+
+`sizeof()` returns the amount of memory allocated by the data types.
+
